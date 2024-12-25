@@ -1,0 +1,23 @@
+﻿@model DoAnLapTrinhWeb.Models.TAIKHOAN
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+<h2>Delete Account</h2>
+<form action="/accounts/delete/@Model.IDtaikhoan" method="post">
+    <input type="hidden" name="ProductId" value="@Model.IDtaikhoan" />
+    <table class="table">
+        <tr>
+            <th>Họ tên</th>
+            <td>@Model.Hoten</td>
+        </tr>
+        <tr>
+            <th>Loại tài khoản</th>
+            <td>@Model.LoaiTK</td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="/accounts" class="btn btn-dark">Cancel</a>
+</form>

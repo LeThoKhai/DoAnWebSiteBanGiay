@@ -1,0 +1,40 @@
+﻿@model List<DoAnLapTrinhWeb.Models.GIAY>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPageUser.cshtml";
+}
+
+
+<div class="small-container">
+    <h2 class="title">Brand New</h2>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4">
+                <a href="/users/detail/@item.Magiay"><img src="~/imgs/giay/@item.Anhbia" alt=""></a>
+                <a href="#" style="text-decoration:none;"><h4>@item.Tengiay</h4></a>
+                <a href="#" style="text-decoration:none;"><h4>@Math.Round(item.Giagiay, 0)</h4></a>
+            </div>
+        }
+    </div>
+</div>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="~/imgs/giay/women-shoes-png-image.png" class="offer-img" style="max-width:800px;height:auto;">
+            </div>
+            <div class="col-2" style="padding-right:100px;">
+                <p>Only Available in This Store</p>
+                <h1>Giày Sandal quai đính đá cách điệu JEREMY SN0005</h1>
+                <small>
+                    Kiểu dáng độc đáo với họa tiết đính đá theo đường cong đẹp mắt, tinh tế. Thiết kế dáng đế đúp tôn chiều cao kết hợp dây kéo khóa gót chân chắc chắn, dễ dàng di chuyển. Đường nét sang trọng, tinh tế và không kém phần cá tính. Hai gam màu ấn tượng và hợp xu hướng thời trang.
+                </small>
+                <div class="button" style="margin-top: 20px;">
+                    <a href="javascript:buyNow()" class="btn" style="background-color:brown; border-radius: 30px ;padding: 5px 10px;"> Buy Now &#10132; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

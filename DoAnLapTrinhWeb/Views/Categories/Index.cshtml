@@ -1,0 +1,35 @@
+﻿@model List<DoAnLapTrinhWeb.Models.LOAIGIAY>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index category</h2>
+<a href="/categories/create">Thêm mới loại giày</a>
+<form class="d-flex flex-row align-items-center flex-wrap" action="/categories/index">
+    <label for="search" class="mx-2 my-1">Search</label>
+    <input type="search"
+           class="form-control w-auto"
+           id="search"
+           name="search"
+           value="@ViewBag.Search"
+           placeholder="Search" />
+    <button type="submit" class="btn btn-primary" mx-2>Go</button>
+</form>
+<table class="table">
+    <tr>
+        <th>Mã loại</th>
+        <th>Tên loại</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Maloai</td>
+            <td>@item.Tenloai</td>
+            <td>
+                <a href="/categories/edit/@item.Maloai">Edit</a>
+                <a href="/categories/delete/@item.Maloai">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

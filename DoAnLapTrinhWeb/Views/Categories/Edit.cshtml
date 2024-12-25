@@ -1,0 +1,26 @@
+﻿@model DoAnLapTrinhWeb.Models.LOAIGIAY
+
+@{
+    ViewBag.Title = "Edit";
+   Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit category</h2>
+<form action="/categories/edit/@Model.Maloai" method="post">
+    <input type="hidden" name="maloai" value="@Model.Maloai" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="tengiay">Tên loại</label>
+            <input type="text"
+                   class="form-control"
+                   id="tenloai"
+                   name="tenloai"
+                   placeholder="Tên loại"
+                   value="@Model.Tenloai" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/categories" class="btn btn-dark">Cancel</a>
+</form>
+
+

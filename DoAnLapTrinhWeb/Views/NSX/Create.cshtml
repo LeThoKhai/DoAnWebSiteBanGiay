@@ -1,0 +1,48 @@
+﻿@model DoAnLapTrinhWeb.Models.NHASANXUAT
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create NSX</h2>
+<form action="/nsx/create" method="post">
+    <div class="row" style="padding-bottom:10px;">
+        <div class="col-md-6">
+            <label for="masx">Mã NSX</label>
+            <input type="text"
+                   class="form-control"
+                   id="masx"
+                   name="masx"
+                   placeholder="Mã NSX" />
+        </div>
+        <div class="col-md-6">
+            <label for="tensx">Tên NSX</label>
+            <input type="text"
+                   class="form-control"
+                   id="tensx"
+                   name="tensx"
+                   placeholder="Tên NSX" />
+        </div>
+        <div class="col-md-6">
+            <label for="diachi">Địa chỉ</label>
+            <input type="text"
+                   class="form-control"
+                   id="diachi"
+                   name="diachi"
+                   placeholder="Địa chỉ" />
+        </div>
+        <div class="col-md-6">
+            <label for="dienthoai">Điện thoại</label>
+            <input type="text"
+                   class="form-control"
+                   id="dienthoai"
+                   name="dienthoai"
+                   placeholder="Điện thoại" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+    <a href="/nsx" class="btn btn-danger">Cancel</a>
+
+</form>
+

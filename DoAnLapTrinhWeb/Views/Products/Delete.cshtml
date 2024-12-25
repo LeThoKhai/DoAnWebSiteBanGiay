@@ -1,0 +1,23 @@
+﻿@model DoAnLapTrinhWeb.Models.GIAY
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete product</h2>
+<form action="/products/delete/@Model.Magiay" method="post">
+    <input type="hidden" name="ProductId" value="@Model.Magiay" />
+    <table class="table">
+        <tr>
+            <th>Product Name</th>
+            <td>@Model.Tengiay</td>
+        </tr>
+        <tr>
+            <th>Product Price</th>
+            <td>@String.Format("{0:N0}", Model.Giagiay)</td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="/products" class="btn btn-dark">Cancel</a>
+</form>

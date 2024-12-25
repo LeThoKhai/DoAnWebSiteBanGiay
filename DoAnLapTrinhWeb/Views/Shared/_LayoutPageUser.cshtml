@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <!--logo and menu-->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="~/imgs/giay/logonhom.png" alt="" width="180px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="/cart/index/@Session["UserId"].ToString()">Cart</a></li>
+                        <li><a href="/accounts/login">Logout</a></li>
+                        <li>
+                            <a href="/accounts/login">
+                                @if (Session["UserId"] != null)
+                                {
+                                    @Session["UserId"].ToString()
+                                }
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--end -logo and menu-->
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give you Exercise<br>A new Mode!</h1>
+                    <p>
+                        Your goal is to be better than yesterday. You are your greate competition.
+                        <br>All you nees is to know what your goal is and be consistent everyday in chieving it!
+                    </p>
+                    <a href="" class="btn" style="padding:5px 10px; border-radius: 30px; background-color:black;color:white;">Explore Now  </a>
+                </div>
+                <div class="col-2">
+                    <img src="~/imgs/giay/all-sports-banner.png">
+                </div>
+            </div>
+            <!--end - banner -->
+        </div>
+    </div>
+    @RenderBody()
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="~/imgs/giay/play-store.png" alt="">
+                    <img src="~/imgs/giay/app-store.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="~/imgs/giay/logo-one.png" alt="" style="max-width:300px;height:auto;">
+                <p>Our Purpose Is to sustainable make the pleasure and benefits of sport accessible to the many </p>
+            </div>
+            <div class="foofter-col-3">
+                <h3>Usefil Links</h3>
+                <h3>Usefil Links</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <!--chan footer-->
+        <hr>
+        <p class="copyright">copyright 2021 - DinhNT Codes</p>
+    </div>
+</div>
+</body>
+</html>

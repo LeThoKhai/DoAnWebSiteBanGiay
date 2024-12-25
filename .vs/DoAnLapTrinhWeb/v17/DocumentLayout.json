@@ -1,0 +1,524 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\controllers\\nsxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\nsxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|d:\\code\\c# asp.net\\doanlaptrinhweb\\doanlaptrinhweb\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\users\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\shared\\_layoutpageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\shared\\_layoutpageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\nsx\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\nsx\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\shared\\_layoutpageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\shared\\_layoutpageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\models\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\shared\\_layoutproductdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\shared\\_layoutproductdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\nsx\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\nsx\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\models\\metadata\\nhasanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\metadata\\nhasanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\models\\metadata\\loaigiay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\metadata\\loaigiay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\models\\metadata\\giay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\metadata\\giay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\content\\accountcss\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\content\\accountcss\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\content\\accountcss\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\content\\accountcss\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\models\\chitietdondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\models\\chitietdondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\doanlaptrinhweb\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4649C010-94A6-4F57-B1B2-BD3776969190}|DoAnLapTrinhWeb\\DoAnLapTrinhWeb.csproj|solutionrelative:doanlaptrinhweb\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:09:00.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Users\\Detail.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Users\\Detail.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Users\\Detail.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Users\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T08:55:05.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\App_Start\\BundleConfig.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:46:21.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwGMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:03:22.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:11:56.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutPageUser.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageUser.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageUser.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageUser.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T03:47:04.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NSXController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\NSXController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\NSXController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\NSXController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\NSXController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwEAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:14:14.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\CartController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:24:53.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Accounts\\Edit.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Edit.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Accounts\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T08:05:05.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:46:08.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:41:59.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\NSX\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\NSX\\Delete.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\NSX\\Delete.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\NSX\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:02:38.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Accounts\\Delete.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Delete.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Accounts\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T12:59:05.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAwwIIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T12:53:26.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T12:53:22.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutPageAccount.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageAccount.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageAccount.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageAccount.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutPageAccount.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T07:33:32.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T03:44:37.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Model1.edmx.diagram",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\Model1.edmx.diagram",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\Model1.edmx.diagram",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\Model1.edmx.diagram",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\Model1.edmx.diagram",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-14T08:05:29.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Accounts\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwCUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T03:44:39.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LayoutProductDetail.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutProductDetail.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutProductDetail.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Shared\\_LayoutProductDetail.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Shared\\_LayoutProductDetail.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwCIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T07:33:37.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GIAY.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\GIAY.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\MetaData\\GIAY.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\GIAY.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\MetaData\\GIAY.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:12:58.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T08:04:26.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T08:04:49.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LOAIGIAY.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\LOAIGIAY.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\MetaData\\LOAIGIAY.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\LOAIGIAY.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\MetaData\\LOAIGIAY.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:04:59.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NHASANXUAT.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\NHASANXUAT.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\MetaData\\NHASANXUAT.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\MetaData\\NHASANXUAT.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\MetaData\\NHASANXUAT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:05:00.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\NSX\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\NSX\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\NSX\\Index.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\NSX\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T08:06:39.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Content\\AccountCss\\css\\style.css",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Content\\AccountCss\\css\\style.css",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Content\\AccountCss\\css\\style.css",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Content\\AccountCss\\css\\style.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T07:34:25.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Web.config",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Web.config",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Web.config",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-14T07:03:29.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Content\\AccountCss\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Content\\AccountCss\\css\\font-awesome.min.css",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Content\\AccountCss\\css\\font-awesome.min.css",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Content\\AccountCss\\css\\font-awesome.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T07:34:23.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CHITIETDONDATHANG.cs",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\CHITIETDONDATHANG.cs",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Models\\CHITIETDONDATHANG.cs",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Models\\CHITIETDONDATHANG.cs",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Models\\CHITIETDONDATHANG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:41:55.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnLapTrinhWeb\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\C# ASP.NET\\DoAnLapTrinhWeb\\DoAnLapTrinhWeb\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "DoAnLapTrinhWeb\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T06:47:19.609Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

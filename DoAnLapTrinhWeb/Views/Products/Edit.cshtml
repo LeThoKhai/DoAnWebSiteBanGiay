@@ -1,0 +1,108 @@
+﻿@model DoAnLapTrinhWeb.Models.GIAY
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit product</h2>
+<form action="/products/edit/@Model.Magiay" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="magiay" value="@Model.Magiay" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="tengiay">Ten giay</label>
+            <input type="text"
+                   class="form-control"
+                   id="tengiay"
+                   name="tengiay"
+                   placeholder="tengiay"
+                   value="@Model.Tengiay" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="size">Size</label>
+            <input type="number"
+                   class="form-control"
+                   id="size"
+                   name="size"
+                   placeholder="size"
+                   value="@Model.Size" />
+        </div>
+        <div class="col-md-6">
+            <label for="giagiay">Gia giay</label>
+            <input type="number"
+                   class="form-control"
+                   id="giagiay"
+                   name="giagiay"
+                   placeholder="giagiay"
+                   value="@String.Format("{0:N0}", Model.Giagiay)" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="mota">Mo ta</label>
+            <input type="text"
+                   class="form-control"
+                   id="mota"
+                   name="mota"
+                   placeholder="mota"
+                   value="@Model.Mota" />
+        </div>
+        <div class="col-md-6">
+            <label for="ngaycapnhat">Ngay cap nhat</label>
+            <input type="date"
+                   class="form-control"
+                   id="ngaycapnhat"
+                   name="ngaycapnhat"
+                   placeholder="ngaycapnhat"
+                   value="@Model.Ngaycapnhat" />
+        </div>
+        <div class="col-md-6">
+            <label for="soluongton">So luong ton</label>
+            <input type="number"
+                   class="form-control"
+                   id="soluongton"
+                   name="soluongton"
+                   placeholder="soluongton"
+                   value="@Model.Soluongton" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="size">Ma loai</label>
+            <input type="text"
+                   class="form-control"
+                   id="maloai"
+                   name="maloai"
+                   placeholder="maloai"
+                   value="@Model.Maloai" />
+        </div>
+        <div class="col-md-6">
+            <label for="giagiay">Ma nha SX</label>
+            <input type="text"
+                   class="form-control"
+                   id="masx"
+                   name="masx"
+                   placeholder="masx"
+                   value="@Model.MaSX" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="mx-3 form-check">
+            <input type="checkbox"
+                   class="form-check-input"
+                   id="hot"
+                   name="hot"
+                   value="True"
+                   checked="@Model.Hot" />
+            <label class="form-check-label" for="Active">Hot</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="file" id="uploadhinh" name="uploadhinh" accept="image/*" style="margin:10px 0" />
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/products" class="btn btn-dark">Cancel</a>
+</form>
+

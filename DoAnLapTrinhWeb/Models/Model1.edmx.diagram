@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="922a5a8b301f4caeb095df14d82f351c" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="WebBanGiayDataModel.CHITIETDONDATHANG" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.DONDATHANG" Width="1.5" PointX="3" PointY="9.625" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.GIAY" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.LOAIGIAY" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.NHASANXUAT" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="WebBanGiayDataModel.TAIKHOAN" Width="1.5" PointX="0.75" PointY="9.625" />
+        <AssociationConnector Association="WebBanGiayDataModel.FK_CHITIETDONDATHANG_DONDATHANG" />
+        <AssociationConnector Association="WebBanGiayDataModel.FK_CHITIETDONDATHANG_Giay" />
+        <AssociationConnector Association="WebBanGiayDataModel.FK_DONDATHANG_TAIKHOAN" />
+        <AssociationConnector Association="WebBanGiayDataModel.FK_Giay_LOAIGIAY" />
+        <AssociationConnector Association="WebBanGiayDataModel.FK_GIAY_NHASANXUAT" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

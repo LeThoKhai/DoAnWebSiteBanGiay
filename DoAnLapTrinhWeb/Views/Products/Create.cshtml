@@ -1,0 +1,106 @@
+﻿@model IEnumerable<DoAnLapTrinhWeb.Models.GIAY>
+
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+<form action="/Products/Create" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-6">
+            <label for="magiay">Ma giay</label>
+            <input type="text"
+                   class="form-control"
+                   id="magiay"
+                   name="magiay"
+                   placeholder="Ma giay" />
+        </div>
+        <div class="col-md-6">
+            <label for="tengiay">Ten giay</label>
+            <input type="text"
+                   class="form-control"
+                   id="tengiay"
+                   name="tengiay"
+                   placeholder="tengiay" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="size">Size</label>
+            <input type="number"
+                   class="form-control"
+                   id="size"
+                   name="size"
+                   placeholder="size" />
+        </div>
+        <div class="col-md-6">
+            <label for="giagiay">Gia giay</label>
+            <input type="number"
+                   class="form-control"
+                   id="giagiay"
+                   name="giagiay"
+                   placeholder="giagiay" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="mota">Mo ta</label>
+            <input type="text"
+                   class="form-control"
+                   id="mota"
+                   name="mota"
+                   placeholder="mota" />
+        </div>
+        <div class="col-md-6">
+            <label for="ngaycapnhat">Ngay cap nhat</label>
+            <input type="date"
+                   class="form-control"
+                   id="ngaycapnhat"
+                   name="ngaycapnhat"
+                   placeholder="ngaycapnhat" />
+        </div>
+        <div class="col-md-6">
+            <label for="soluongton">So luong ton</label>
+            <input type="number"
+                   class="form-control"
+                   id="soluongton"
+                   name="soluongton"
+                   placeholder="soluongton" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="Maloai">Loại giày</label>
+            @Html.DropDownList("Maloai", (IEnumerable<SelectListItem>)ViewBag.DSLOAIGIAY, new { @class = "form-control" })
+        </div>
+        <div class="col-md-6">
+            <label for="Maloai">Nhà sản xuất</label>
+            @Html.DropDownList("MaSX", (IEnumerable<SelectListItem>)ViewBag.DSNHASANXUAT, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="mx-3 form-check">
+            <input type="checkbox"
+                   class="form-check-input"
+                   id="hot"
+                   name="hot"
+                   value="true" />
+            <label class="form-check-label" for="Active">Hot</label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="file" id="uploadhinh" name="uploadhinh" accept="image/*" style="margin:10px 0" />
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+    <a href="/products" class="btn btn-danger">Cancel</a>
+</form>
+@if (ViewBag.ErrorMessage != null)
+{
+    <script>
+        alert('@ViewBag.ErrorMessage');
+    </script>
+}

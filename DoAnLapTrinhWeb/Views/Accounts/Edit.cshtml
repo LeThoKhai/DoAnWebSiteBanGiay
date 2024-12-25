@@ -1,0 +1,64 @@
+﻿@model DoAnLapTrinhWeb.Models.TAIKHOAN
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Account</h2>
+<form action="/accounts/edit/@Model.IDtaikhoan" method="post">
+    <input type="hidden" name="idtaikhoan" value="@Model.IDtaikhoan" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="tengiay">Tên đăng nhập</label>
+            <input type="text"
+                   class="form-control"
+                   id="idtendangnhap"
+                   name="idtendangnhap"
+                   placeholder="Tên đăng nhập"
+                   value="@Model.IDtendangnhap" />
+        </div>
+        <div class="col-md-6">
+            <label for="tengiay">Họ tên</label>
+            <input type="text"
+                   class="form-control"
+                   id="hoten"
+                   name="hoten"
+                   placeholder="Họ tên"
+                   value="@Model.Hoten" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="tengiay">Email</label>
+            <input type="text"
+                   class="form-control"
+                   id="email"
+                   name="email"
+                   placeholder="Email"
+                   value="@Model.Email" />
+        </div>
+        <div class="col-md-6">
+            <label for="tengiay">Địa chỉ</label>
+            <input type="text"
+                   class="form-control"
+                   id="diachi"
+                   name="diachi"
+                   placeholder="Địa chỉ"
+                   value="@Model.Diachi" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="mx-3 form-check">
+            <input type="checkbox"
+                   class="form-check-input"
+                   id="loaitk"
+                   name="loaitk" />
+            <label class="form-check-label" for="Active">Admin</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/categories" class="btn btn-dark">Cancel</a>
+</form>
+
+

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebBanGiayDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHITIETDONDATHANG">
+    <Key>
+      <PropertyRef Name="MaDonHang" />
+      <PropertyRef Name="Magiay" />
+    </Key>
+    <Property Name="MaDonHang" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Magiay" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Soluong" Type="int" />
+    <Property Name="Dongia" Type="money" />
+  </EntityType>
+  <EntityType Name="DONDATHANG">
+    <Key>
+      <PropertyRef Name="MaDonHang" />
+    </Key>
+    <Property Name="MaDonHang" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dathanhtoan" Type="bit" Nullable="false" />
+    <Property Name="Tinhtranggiaohang" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngaydat" Type="date" Nullable="false" />
+    <Property Name="Ngaygiao" Type="date" />
+    <Property Name="MaKH" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GIAY">
+    <Key>
+      <PropertyRef Name="Magiay" />
+    </Key>
+    <Property Name="Magiay" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tengiay" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Size" Type="int" Nullable="false" />
+    <Property Name="Giagiay" Type="money" Nullable="false" />
+    <Property Name="Mota" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Anhbia" Type="nvarchar" MaxLength="200" />
+    <Property Name="Ngaycapnhat" Type="date" Nullable="false" />
+    <Property Name="Soluongton" Type="int" Nullable="false" />
+    <Property Name="Maloai" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hot" Type="bit" />
+    <Property Name="MaSX" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LOAIGIAY">
+    <Key>
+      <PropertyRef Name="Maloai" />
+    </Key>
+    <Property Name="Maloai" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tenloai" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NHASANXUAT">
+    <Key>
+      <PropertyRef Name="MaSX" />
+    </Key>
+    <Property Name="MaSX" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenSX" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dienthoai" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="IDtaikhoan" />
+    </Key>
+    <Property Name="IDtaikhoan" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDtendangnhap" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LoaiTK" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_CHITIETDONDATHANG_DONDATHANG">
+    <End Role="DONDATHANG" Type="Self.DONDATHANG" Multiplicity="1" />
+    <End Role="CHITIETDONDATHANG" Type="Self.CHITIETDONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONDATHANG">
+        <PropertyRef Name="MaDonHang" />
+      </Principal>
+      <Dependent Role="CHITIETDONDATHANG">
+        <PropertyRef Name="MaDonHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETDONDATHANG_Giay">
+    <End Role="GIAY" Type="Self.GIAY" Multiplicity="1" />
+    <End Role="CHITIETDONDATHANG" Type="Self.CHITIETDONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIAY">
+        <PropertyRef Name="Magiay" />
+      </Principal>
+      <Dependent Role="CHITIETDONDATHANG">
+        <PropertyRef Name="Magiay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DONDATHANG_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="1" />
+    <End Role="DONDATHANG" Type="Self.DONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="IDtaikhoan" />
+      </Principal>
+      <Dependent Role="DONDATHANG">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Giay_LOAIGIAY">
+    <End Role="LOAIGIAY" Type="Self.LOAIGIAY" Multiplicity="1" />
+    <End Role="GIAY" Type="Self.GIAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIGIAY">
+        <PropertyRef Name="Maloai" />
+      </Principal>
+      <Dependent Role="GIAY">
+        <PropertyRef Name="Maloai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GIAY_NHASANXUAT">
+    <End Role="NHASANXUAT" Type="Self.NHASANXUAT" Multiplicity="1" />
+    <End Role="GIAY" Type="Self.GIAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHASANXUAT">
+        <PropertyRef Name="MaSX" />
+      </Principal>
+      <Dependent Role="GIAY">
+        <PropertyRef Name="MaSX" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebBanGiayDataModelStoreContainer">
+    <EntitySet Name="CHITIETDONDATHANG" EntityType="Self.CHITIETDONDATHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONDATHANG" EntityType="Self.DONDATHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GIAY" EntityType="Self.GIAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAIGIAY" EntityType="Self.LOAIGIAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHASANXUAT" EntityType="Self.NHASANXUAT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAIKHOAN" EntityType="Self.TAIKHOAN" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CHITIETDONDATHANG_DONDATHANG" Association="Self.FK_CHITIETDONDATHANG_DONDATHANG">
+      <End Role="DONDATHANG" EntitySet="DONDATHANG" />
+      <End Role="CHITIETDONDATHANG" EntitySet="CHITIETDONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETDONDATHANG_Giay" Association="Self.FK_CHITIETDONDATHANG_Giay">
+      <End Role="GIAY" EntitySet="GIAY" />
+      <End Role="CHITIETDONDATHANG" EntitySet="CHITIETDONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DONDATHANG_TAIKHOAN" Association="Self.FK_DONDATHANG_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="DONDATHANG" EntitySet="DONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Giay_LOAIGIAY" Association="Self.FK_Giay_LOAIGIAY">
+      <End Role="LOAIGIAY" EntitySet="LOAIGIAY" />
+      <End Role="GIAY" EntitySet="GIAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GIAY_NHASANXUAT" Association="Self.FK_GIAY_NHASANXUAT">
+      <End Role="NHASANXUAT" EntitySet="NHASANXUAT" />
+      <End Role="GIAY" EntitySet="GIAY" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

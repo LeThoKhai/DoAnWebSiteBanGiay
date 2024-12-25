@@ -1,0 +1,32 @@
+﻿@model DoAnLapTrinhWeb.Models.LOAIGIAY
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create category</h2>
+<form action="/categories/create" method="post">
+    <div class="row" style="padding-bottom:10px;">
+        <div class="col-md-6">
+            <label for="maloai">Mã loại</label>
+            <input type="text"
+                   class="form-control"
+                   id="maloai"
+                   name="maloai"
+                   placeholder="Mã loại" />
+        </div>
+        <div class="col-md-6">
+            <label for="tenloai">Tên loại</label>
+            <input type="text"
+                   class="form-control"
+                   id="tenloai"
+                   name="tenloai"
+                   placeholder="Tên loại" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+    <a href="/categories" class="btn btn-danger">Cancel</a>
+</form>
+
+

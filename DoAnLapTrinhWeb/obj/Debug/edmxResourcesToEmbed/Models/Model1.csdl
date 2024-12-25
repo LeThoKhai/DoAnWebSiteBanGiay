@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebBanGiayDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="WebBanGiayDataEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIETDONDATHANG" EntityType="WebBanGiayDataModel.CHITIETDONDATHANG" />
+    <EntitySet Name="DONDATHANG" EntityType="WebBanGiayDataModel.DONDATHANG" />
+    <EntitySet Name="GIAY" EntityType="WebBanGiayDataModel.GIAY" />
+    <EntitySet Name="LOAIGIAY" EntityType="WebBanGiayDataModel.LOAIGIAY" />
+    <EntitySet Name="NHASANXUAT" EntityType="WebBanGiayDataModel.NHASANXUAT" />
+    <EntitySet Name="sysdiagrams" EntityType="WebBanGiayDataModel.sysdiagrams" />
+    <EntitySet Name="TAIKHOAN" EntityType="WebBanGiayDataModel.TAIKHOAN" />
+    <AssociationSet Name="FK_CHITIETDONDATHANG_DONDATHANG" Association="WebBanGiayDataModel.FK_CHITIETDONDATHANG_DONDATHANG">
+      <End Role="DONDATHANG" EntitySet="DONDATHANG" />
+      <End Role="CHITIETDONDATHANG" EntitySet="CHITIETDONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETDONDATHANG_Giay" Association="WebBanGiayDataModel.FK_CHITIETDONDATHANG_Giay">
+      <End Role="GIAY" EntitySet="GIAY" />
+      <End Role="CHITIETDONDATHANG" EntitySet="CHITIETDONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DONDATHANG_TAIKHOAN" Association="WebBanGiayDataModel.FK_DONDATHANG_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="DONDATHANG" EntitySet="DONDATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Giay_LOAIGIAY" Association="WebBanGiayDataModel.FK_Giay_LOAIGIAY">
+      <End Role="LOAIGIAY" EntitySet="LOAIGIAY" />
+      <End Role="GIAY" EntitySet="GIAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GIAY_NHASANXUAT" Association="WebBanGiayDataModel.FK_GIAY_NHASANXUAT">
+      <End Role="NHASANXUAT" EntitySet="NHASANXUAT" />
+      <End Role="GIAY" EntitySet="GIAY" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CHITIETDONDATHANG">
+    <Key>
+      <PropertyRef Name="MaDonHang" />
+      <PropertyRef Name="Magiay" />
+    </Key>
+    <Property Name="MaDonHang" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Magiay" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Soluong" Type="Int32" />
+    <Property Name="Dongia" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="DONDATHANG" Relationship="WebBanGiayDataModel.FK_CHITIETDONDATHANG_DONDATHANG" FromRole="CHITIETDONDATHANG" ToRole="DONDATHANG" />
+    <NavigationProperty Name="GIAY" Relationship="WebBanGiayDataModel.FK_CHITIETDONDATHANG_Giay" FromRole="CHITIETDONDATHANG" ToRole="GIAY" />
+  </EntityType>
+  <EntityType Name="DONDATHANG">
+    <Key>
+      <PropertyRef Name="MaDonHang" />
+    </Key>
+    <Property Name="MaDonHang" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dathanhtoan" Type="Boolean" Nullable="false" />
+    <Property Name="Tinhtranggiaohang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ngaydat" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Ngaygiao" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CHITIETDONDATHANG" Relationship="WebBanGiayDataModel.FK_CHITIETDONDATHANG_DONDATHANG" FromRole="DONDATHANG" ToRole="CHITIETDONDATHANG" />
+    <NavigationProperty Name="TAIKHOAN" Relationship="WebBanGiayDataModel.FK_DONDATHANG_TAIKHOAN" FromRole="DONDATHANG" ToRole="TAIKHOAN" />
+  </EntityType>
+  <EntityType Name="GIAY">
+    <Key>
+      <PropertyRef Name="Magiay" />
+    </Key>
+    <Property Name="Magiay" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tengiay" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Size" Type="Int32" Nullable="false" />
+    <Property Name="Giagiay" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Mota" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Anhbia" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Ngaycapnhat" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Soluongton" Type="Int32" Nullable="false" />
+    <Property Name="Maloai" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Hot" Type="Boolean" />
+    <Property Name="MaSX" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CHITIETDONDATHANG" Relationship="WebBanGiayDataModel.FK_CHITIETDONDATHANG_Giay" FromRole="GIAY" ToRole="CHITIETDONDATHANG" />
+    <NavigationProperty Name="LOAIGIAY" Relationship="WebBanGiayDataModel.FK_Giay_LOAIGIAY" FromRole="GIAY" ToRole="LOAIGIAY" />
+    <NavigationProperty Name="NHASANXUAT" Relationship="WebBanGiayDataModel.FK_GIAY_NHASANXUAT" FromRole="GIAY" ToRole="NHASANXUAT" />
+  </EntityType>
+  <EntityType Name="LOAIGIAY">
+    <Key>
+      <PropertyRef Name="Maloai" />
+    </Key>
+    <Property Name="Maloai" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tenloai" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GIAY" Relationship="WebBanGiayDataModel.FK_Giay_LOAIGIAY" FromRole="LOAIGIAY" ToRole="GIAY" />
+  </EntityType>
+  <EntityType Name="NHASANXUAT">
+    <Key>
+      <PropertyRef Name="MaSX" />
+    </Key>
+    <Property Name="MaSX" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenSX" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Diachi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dienthoai" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GIAY" Relationship="WebBanGiayDataModel.FK_GIAY_NHASANXUAT" FromRole="NHASANXUAT" ToRole="GIAY" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="IDtaikhoan" />
+    </Key>
+    <Property Name="IDtaikhoan" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IDtendangnhap" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiTK" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Hoten" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Diachi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DONDATHANG" Relationship="WebBanGiayDataModel.FK_DONDATHANG_TAIKHOAN" FromRole="TAIKHOAN" ToRole="DONDATHANG" />
+  </EntityType>
+  <Association Name="FK_CHITIETDONDATHANG_DONDATHANG">
+    <End Type="WebBanGiayDataModel.DONDATHANG" Role="DONDATHANG" Multiplicity="1" />
+    <End Type="WebBanGiayDataModel.CHITIETDONDATHANG" Role="CHITIETDONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONDATHANG">
+        <PropertyRef Name="MaDonHang" />
+      </Principal>
+      <Dependent Role="CHITIETDONDATHANG">
+        <PropertyRef Name="MaDonHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETDONDATHANG_Giay">
+    <End Type="WebBanGiayDataModel.GIAY" Role="GIAY" Multiplicity="1" />
+    <End Type="WebBanGiayDataModel.CHITIETDONDATHANG" Role="CHITIETDONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIAY">
+        <PropertyRef Name="Magiay" />
+      </Principal>
+      <Dependent Role="CHITIETDONDATHANG">
+        <PropertyRef Name="Magiay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DONDATHANG_TAIKHOAN">
+    <End Type="WebBanGiayDataModel.TAIKHOAN" Role="TAIKHOAN" Multiplicity="1" />
+    <End Type="WebBanGiayDataModel.DONDATHANG" Role="DONDATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="IDtaikhoan" />
+      </Principal>
+      <Dependent Role="DONDATHANG">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Giay_LOAIGIAY">
+    <End Type="WebBanGiayDataModel.LOAIGIAY" Role="LOAIGIAY" Multiplicity="1" />
+    <End Type="WebBanGiayDataModel.GIAY" Role="GIAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIGIAY">
+        <PropertyRef Name="Maloai" />
+      </Principal>
+      <Dependent Role="GIAY">
+        <PropertyRef Name="Maloai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GIAY_NHASANXUAT">
+    <End Type="WebBanGiayDataModel.NHASANXUAT" Role="NHASANXUAT" Multiplicity="1" />
+    <End Type="WebBanGiayDataModel.GIAY" Role="GIAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHASANXUAT">
+        <PropertyRef Name="MaSX" />
+      </Principal>
+      <Dependent Role="GIAY">
+        <PropertyRef Name="MaSX" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,20 @@
+﻿@model DoAnLapTrinhWeb.Models.LOAIGIAY
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete category</h2>
+<form action="/categories/delete/@Model.Maloai" method="post">
+    <input type="hidden" name="maloai" value="@Model.Maloai" />
+    <table class="table">
+        <tr>
+            <th>Tên loại</th>
+            <td>@Model.Tenloai</td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="/categories" class="btn btn-dark">Cancel</a>
+</form>
+

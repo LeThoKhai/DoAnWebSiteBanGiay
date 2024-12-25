@@ -1,0 +1,31 @@
+﻿@model List<DoAnLapTrinhWeb.Models.CHITIETDONDATHANG>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutProductDetail.cshtml";
+}
+
+
+<div style="padding:30px 250px 250px 250px;">
+    <h2>Your cart</h2>
+    <table class="table">
+        <tr>
+            <th>Tên giày</th>
+            <th>Số lượng</th>
+            <th>Đơn giá</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.GIAY.Tengiay</td>
+                <td>@item.Soluong</td>
+                <td>@String.Format("{0:N0}", @item.Dongia)</td>
+                <td>
+                    <a href="/cart/delete/@item.Magiay" style="color:black">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+

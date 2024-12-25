@@ -1,0 +1,43 @@
+﻿@model DoAnLapTrinhWeb.Models.TAIKHOAN
+@{
+    Layout = "~/Views/Shared/_LayoutPageAccount.cshtml"; ;
+}
+<!--header start here-->
+<div class="header">
+    <div class="header-main">
+        <h1>Register</h1>
+        <div class="header-bottom">
+            <div class="header-right w3agile">
+                <div class="header-left-bottom agileinfo">
+                    <form action="/Accounts/Register" method="post" >
+                        <input type="text" class="form-control" id="IDtaikhoan" name="IDtaikhoan" placeholder="Id Account" />
+                        <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" />
+                        <input type="text" class="form-control" id="IDtendangnhap" name="IDtendangnhap" placeholder="Id User Name" />
+                        <input type="text" class="form-control" id="Email" name="Email" placeholder="Email" />
+                        <input type="text" class="form-control" id="Hoten" name="Hoten" placeholder="Full Name" />
+                        <input type="text" class="form-control" id="Diachi" name="Diachi" placeholder="Address" />
+                        @if (ViewBag.Error != null)
+                        {
+                            <h4 style="padding-bottom:6px;color:darkred;">@ViewBag.Error</h4>
+                        }
+                        <button style="padding:10px;background-color:crimson;border-radius:5px;position:center;
+                        right:0;
+                        " type="submit" class="btn btn-success">Register</button>
+                    </form>
+                    <div class="header-left-top">
+                        <div class="sign-up"> <h2>or</h2> </div>
+                    </div>
+                    <div class="header-social wthree">
+                        <a href="#" class="face"><h5>Facebook</h5></a>
+                        <a href="#" class="twitt"><h5>Twitter</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--header end here-->
+<div class="copyright">
+    <p>© 2016 Classy Login Form. All rights reserved | Design by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p>
+</div>
+<!--footer end here-->

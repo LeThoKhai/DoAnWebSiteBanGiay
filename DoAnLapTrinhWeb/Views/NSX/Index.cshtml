@@ -1,0 +1,42 @@
+﻿@model List<DoAnLapTrinhWeb.Models.NHASANXUAT>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index NSX</h2>
+<a href="/nsx/create">Thêm mới NSX</a>
+<form class="d-flex flex-row align-items-center flex-wrap" action="/nsx/index">
+    <label for="search" class="mx-2 my-1">Search</label>
+    <input type="search"
+           class="form-control w-auto"
+           id="search"
+           name="search"
+           value="@ViewBag.Search"
+           placeholder="Search" />
+    <button type="submit" class="btn btn-primary" mx-2>Go</button>
+</form>
+<table class="table">
+    <tr>
+        <th>Mã NSX</th>
+        <th>Tên NSX</th>
+        <th>Địa chỉ</th>
+        <th>Liên hệ</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MaSX</td>
+            <td>@item.TenSX</td>
+            <td>@item.Diachi</td>
+            <td>@item.Dienthoai</td>
+            <td>
+                <a href="/nsx/edit/@item.MaSX">Edit</a>
+                <a href="/nsx/delete/@item.MaSX">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+

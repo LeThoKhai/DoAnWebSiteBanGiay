@@ -1,0 +1,31 @@
+﻿@model DoAnLapTrinhWeb.Models.NHASANXUAT
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Delete NSX</h2>
+<form action="/nsx/delete/@Model.MaSX" method="post">
+    <input type="hidden" name="masx" value="@Model.MaSX" />
+    <table class="table">
+        <tr>
+            <th>Tên thương hiệu</th>
+            <td>@Model.TenSX</td>
+        </tr>
+    </table>
+    <table class="table">
+        <tr>
+            <th>Địa chỉ</th>
+            <td>@Model.Diachi</td>
+        </tr>
+    </table>
+    <table class="table">
+        <tr>
+            <th>Điện thoại</th>
+            <td>@Model.Dienthoai</td>
+        </tr>
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="/nsx" class="btn btn-dark">Cancel</a>
+</form>
+

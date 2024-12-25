@@ -1,0 +1,60 @@
+﻿@model List<DoAnLapTrinhWeb.Models.GIAY>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index product</h2>
+<a href="/products/create">Create new product</a>
+<form class="d-flex flex-row align-items-center flex-wrap" action="/products/index">
+    <label for="search" class="mx-2 my-1">Search</label>
+    <input type="search"
+           class="form-control w-auto"
+           id="search"
+           name="search"
+           value="@ViewBag.Search"
+           placeholder="Search" />
+    <button type="submit" class="btn btn-primary" mx-2>Go</button>
+</form>
+<table class="table" >
+    <tr>
+        <th>Ma Giay</th>
+        <th>Ten Giay</th>
+        <th>Size</th>
+        <th>Gia giay</th>
+        <th>Mo ta</th>
+        <th>Ngay cap nhat</th>
+        <th>So luong ton</th>
+        <th>Ma loai</th>
+        <th>Ma NXB</th>
+        <th>Hot</th>
+        <th>Image</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Magiay</td>
+            <td>
+                <a href="/products/detail/@item.Magiay">
+                    @item.Tengiay
+                </a>
+            </td>
+            <td>@item.Size</td>
+            <td>@String.Format("{0:N0}", @item.Giagiay)</td>
+            <td>@item.Mota</td>
+            <td>@item.Ngaycapnhat.ToShortDateString()</td>
+            <td>@item.Soluongton</td>
+            <td>@item.Maloai</td>
+            <td>@item.MaSX</td>
+            <td>@item.Hot</td>
+            <td><img style="width:200px;height:300px;" src="~/imgs/giay/@item.Anhbia"/></td>
+            <td>
+                <a href="/products/edit/@item.Magiay">Edit</a>
+                <a href="/products/delete/@item.Magiay">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>
+

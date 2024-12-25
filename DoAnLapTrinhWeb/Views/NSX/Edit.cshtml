@@ -1,0 +1,43 @@
+﻿@model DoAnLapTrinhWeb.Models.NHASANXUAT
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit NSX</h2>
+<form action="/nsx/edit/@Model.MaSX" method="post">
+    <input type="hidden" name="masx" value="@Model.MaSX" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="tensx">Tên loại</label>
+            <input type="text"
+                   class="form-control"
+                   id="tensx"
+                   name="tensx"
+                   placeholder="Tên nhà sản xuất"
+                   value="@Model.TenSX" />
+        </div>
+        <div class="col-md-6">
+            <label for="tensx">Địa chỉ</label>
+            <input type="text"
+                   class="form-control"
+                   id="diachi"
+                   name="diachi"
+                   placeholder="Địa chỉ"
+                   value="@Model.Diachi" />
+        </div>
+        <div class="col-md-6">
+            <label for="tensx">Điện thoại</label>
+            <input type="text"
+                   class="form-control"
+                   id="dienthoai"
+                   name="dienthoai"
+                   placeholder="Địa thoại"
+                   value="@Model.Dienthoai" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/nsx" class="btn btn-dark">Cancel</a>
+</form>
+
